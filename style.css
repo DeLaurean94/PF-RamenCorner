@@ -28,6 +28,12 @@ body{
     text-align: center;
 }
 
+/* Containar de Banner */
+
+.alert alert-info{
+    background-color: #A3E4D7;
+}
+
 /* Grid y Flexbox para Selección de Ramens */
 .product-grid {
     display: grid;
