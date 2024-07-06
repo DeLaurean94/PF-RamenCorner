@@ -4,17 +4,21 @@ body{
     background-color: #E5E7E9
 }
 
+body {
+    font-family: 'Lilita One', sans-serif;
+}
+
 /* Menu Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #f8f9fa;
+    background-color: #e7b880 !important;
     padding: 1rem;
 }
 
 .navbar a {
     text-decoration: none;
-    color: #000;
+    color: #000000 !important;
     margin: 0 0.5rem;
 }
 
@@ -28,10 +32,18 @@ body{
     text-align: center;
 }
 
+.img-fluid {
+    border-radius: 50px;
+    overflow: hidden;
+}
+
 /* Containar de Banner */
 
-.alert alert-info{
-    background-color: #A3E4D7;
+.alert.alert-info{
+    background-color: #50e670;
+    border-radius: 50px;
+    overflow: hidden;
+    border: none;
 }
 
 /* Grid y Flexbox para Selección de Ramens */
@@ -66,6 +78,18 @@ body{
 
 .product-item button:hover {
     background-color: #0056b3;
+}
+
+/* Estilando Footer */
+
+footer .text-center.p-3.bg-dark.text-white {
+    background-color: #e8d6bf !important;
+    color: #000000 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bg-light.text-center.text-lg-start{
+    background-color: #e7b880 !important;
 }
 
 /* Responsive definido para Tablet y Mobile - Desktop First */
