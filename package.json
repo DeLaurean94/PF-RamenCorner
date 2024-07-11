@@ -1,0 +1,26 @@
+{
+  "name": "proyectocoder-laureanocerrotta",
+  "version": "1.5.0",
+  "description": "Página web sobre Ramen en Cordoba, aplicando bootstrap, grid, flexbox, sass, y otros contenidos de desarrollo web del curso.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-coder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeLaurean94/Preentregable-2---Laureano-Cerrotta.git"
+  },
+  "keywords": [
+    "ramen",
+    "bootstrap",
+    "cordoba",
+    "seo",
+    "coderhouse"
+  ],
+  "author": "Laureano Cerrotta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeLaurean94/Preentregable-2---Laureano-Cerrotta/issues"
+  },
+  "homepage": "https://github.com/DeLaurean94/Preentregable-2---Laureano-Cerrotta#readme"
+}
