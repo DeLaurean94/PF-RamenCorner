@@ -1,5 +1,11 @@
 /* Generales*/
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
 
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 body{
     background-color: #E5E7E9;
@@ -7,18 +13,20 @@ body{
 }
 
 /* Menu Navbar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
     background-color: #e7b880 !important;
-    padding: 1rem;
+    padding: 1ren;
 }
-
-.navbar a {
+    
+.navbar-brand {
     text-decoration: none;
-    color: #000000 !important;
+    color: #000000;
     margin: 0 0.5rem;
 }
+  
 
 /* Containter de bootstrap */
 .container {
