@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/DeLaurean94/Preentregable-2---Laureano-Cerrotta/issues"
   },
-  "homepage": "https://github.com/DeLaurean94/Preentregable-2---Laureano-Cerrotta#readme"
+  "homepage": "https://github.com/DeLaurean94/Preentregable-2---Laureano-Cerrotta#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
 }
