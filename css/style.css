@@ -11884,6 +11884,10 @@ body {
   font-family: "Lilita One", sans-serif;
 }
 
+.custom-bg-nav {
+  background-color: #e7b880;
+}
+
 /* Menu Navbar */
 .navbar {
   display: flex;
