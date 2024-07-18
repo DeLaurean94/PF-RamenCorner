@@ -11889,7 +11889,7 @@ body {
 }
 
 /* Menu Navbar */
-.navbar-brand {
+.custom-margin {
   text-decoration: none;
   color: #000000;
   margin: 0 0.5rem;
