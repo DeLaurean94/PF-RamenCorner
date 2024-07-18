@@ -11889,13 +11889,6 @@ body {
 }
 
 /* Menu Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  background-color: #e7b880 !important;
-  padding: 1ren;
-}
-
 .navbar-brand {
   text-decoration: none;
   color: #000000;

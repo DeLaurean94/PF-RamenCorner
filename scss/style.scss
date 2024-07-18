@@ -20,19 +20,11 @@ body{
 
 /* Menu Navbar */
 
-
 .custom-bg-nav {
     @extend %custom-color;
 }
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: #e7b880 !important;
-    padding: 1ren;
-}
     
-.navbar-brand {
+.custom-margin {
     text-decoration: none;
     color: #000000;
     margin: 0 0.5rem;
