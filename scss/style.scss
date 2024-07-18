@@ -1,45 +1,50 @@
 /* Generales*/
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 body{
-    background-color: #E5E7E9
-}
-
-body {
+    background-color: #E5E7E9;
     font-family: 'Lilita One', sans-serif;
 }
 
-/* Menu Navbar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: #e7b880 !important;
-    padding: 1rem;
+// Variables Custom
+
+%custom-color {
+    background-color:#e7b880;
 }
 
-.navbar a {
+/* Menu Navbar */
+
+.custom-bg-nav {
+    @extend %custom-color;
+}
+    
+.custom-margin {
     text-decoration: none;
-    color: #000000 !important;
+    color: #000000;
     margin: 0 0.5rem;
 }
+  
 
 /* Containter de bootstrap */
-.container {
+.custom-container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.text-center {
-    text-align: center;
-}
-
-.img-fluid {
+.custom-img-fluid {
     border-radius: 50px;
     overflow: hidden;
 }
 
 /* Containar de Banner */
 
-.alert.alert-info{
+.custom-banner{
     background-color: #50e670;
     border-radius: 50px;
     overflow: hidden;
@@ -82,13 +87,13 @@ body {
 
 /* Estilando Footer */
 
-footer .text-center.p-3.bg-dark.text-white {
+.custom-fot-col {
     background-color: #e8d6bf !important;
     color: #000000 !important;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.bg-light.text-center.text-lg-start{
+.custom-fot-col-bold{
     background-color: #e7b880 !important;
 }
 
