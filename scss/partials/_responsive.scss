@@ -1,0 +1,18 @@
+/* Responsive definido para Tablet y Mobile - Desktop First */
+@media (max-width: 961px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
