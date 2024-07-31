@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sekección de Ramen</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ramen Corner - Reservas</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light custom-bg-nav">
-        <a class="navbar-brand custom-margin" href="../index.html">
+        <a class="navbar-brand custom-margin" href="index.html">
             <img src="../images/ramen-logo.png" alt="Logo Ramen Corner" width="30" height="30" class="d-inline-block align-top">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,46 +35,32 @@
         </div>
     </nav>
     <div class="container text-center my-5">
-        <h1>Conoce toda nuestra carta de Ramen</h1>
-        <h2>Variedad y Calidad</h2>
+        <h1>Ramen Corner Cordoba</h1>
+        <h2>¡Reserva ahora, no te quedes sin lugar!</h2>
     </div>
-    <div class="product-grid">
-        <div class="product-item">
-            <img src="../images/tofu-ramen-resize.jpg" alt="Tofu Ramen Corner">
-            <h4>Tofu Ramen Corner</h4>
-            <p>$12000</p>
-            <button class="btn-menu">Encargar</button>
-        </div>
-        <div class="product-item">
-            <img src="../images/tofu-ramen-resize.jpg" alt="Tofu Ramen Corner">
-            <h4>Meat Ramen</h4>
-            <p>$18000</p>
-            <button>Encargar</button>
-        </div>
-        <div class="product-item">
-            <img src="../images/tofu-ramen-resize.jpg" alt="Tofu Ramen Corner">
-            <h4>Chicken Ramen</h4>
-            <p>$18000</p>
-            <button>Encargar</button>
-        </div>
-        <div class="product-item">
-            <img src="../images/tofu-ramen-resize.jpg" alt="Tofu Ramen Corner">
-            <h4>Egg Chicken Ramen</h4>
-            <p>$18000</p>
-            <button>Encargar</button>
-        </div>
-        <div class="product-item">
-            <img src="../images/tofu-ramen-resize.jpg" alt="Tofu Ramen Corner">
-            <h4>Salmon Ramen</h4>
-            <p>$18000</p>
-            <button>Encargar</button>
-        </div>
-        <div class="product-item">
-            <img src="../images/tofu-ramen-resize.jpg" alt="Tofu Ramen Corner">
-            <h4>Vegan Ramen</h4>
-            <p>$13000</p>
-            <button>Encargar</button>
-        </div>
+    <div class="formulario">
+        <form action="www.ramen-corner.com/bd/forms" method="POST">
+            <div class="form-name">
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-tel">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" class="form-control" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-email">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-date">
+                <label for="datetime">Fecha y Hora</label>
+                <input type="datetime-local" class="form-control" id="datetime" name="datetime" required>
+            </div>
+            <button type="button" class="btn btn-primary bt-form">Entregar</button>
+            </form>
+            <div>
+                <p>Importante! Los horarios de nuestro local son de 12am a 15pm y de 20pm a 23pm</p>
+            </div>
     </div>
     <footer class="bg-light text-center text-lg-start custom-fot-col-bold">
         <div class="container p-4">
@@ -94,8 +80,7 @@
                         </li>
                         <li>
                             <a href="../html/ramen-direccion.html" class="text-dark">Dirección</a>
-                        </li>
-                        <li>
+                        </li>                        <li>
                             <a href="../html/ramen-reserva.html" class="text-dark">Reservas</a>
                         </li>
                     </ul>

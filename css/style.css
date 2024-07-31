@@ -11922,6 +11922,11 @@ body {
   margin: 0 0.5rem;
 }
 
+/* Parrafos */
+p {
+  margin: 15px;
+}
+
 /* Mapa Dirección */
 .mapa-ramen {
   display: flex;
@@ -11962,12 +11967,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #ccc;
   padding: 1rem;
 }
 
 .product-item img {
   max-width: 100%;
+  border-radius: 5px;
   height: auto;
 }
 
@@ -11977,6 +11982,7 @@ body {
   background-color: #007bff;
   color: #fff;
   border: none;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -11984,8 +11990,9 @@ body {
   background-color: #0056b3;
 }
 
-.product-grid {
-  grid-template-columns: 1fr;
+/* Botones */
+.bt-form {
+  margin: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
